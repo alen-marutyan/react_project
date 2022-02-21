@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap');
+
+
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+*::selection {
+    background: #ed5f43;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 10;
+}
+
+.logo_menu {
+    display: flex;
+}
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    font-size: 18px;
+    z-index: 10;
+}
+
+
+.logo_menu .Menu a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+    z-index: 1000;
+}
+
+.logo_menu .Menu a:active{
+    color: red;
+}
+
+.logo_menu .Menu a:hover {
+    color: red;
+}
+
+.btn {
+    background: #ed5f43;
+    padding: 14px 35px;
+    border-radius: 5px;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.header_sel1 {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-sliderbg.png");
+    background-position-x: -330px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.main_sel_div_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    height: 600px;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.main_sel_div_1 h2 {
+    color: rgb(21, 0, 92);
+    font-size: 70px;
+}
+
+.main_sel_div_1 p {
+    width: 370px;
+    margin: 20px 0;
+    color: green;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.main_btn {
+    margin-top: 30px;
+}
+
+.btn.read_more{
+    padding: 18px 30px;
+}
+
+.btn.course_details {
+    padding: 18px 35px;
+    background: rgba(128, 128, 128, 0.49);
+    color: rgb(21, 0, 92);
+    font-weight: 800;
+}
+
+.btn.main{
+    margin: 0 5px;
+}
+
+
+/* Section_2 */
+
+.select_2 {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0;
+}
+
+.item_sec {
+    flex-direction: column;
+    width: 45%;
+}
+
+.item_sec h2 {
+    color: #15005c;
+    font-size: 40px;
+}
+
+.item_sec p {
+    font-size: 20px;
+    margin-left: 150px;
+    color: black;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.item_sec img {
+    width: 500px;
+    height: 400px;
+}
+
+
+.item_sec .btn {
+    margin-left: 150px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+
+/* Section_3 */
+
+.select_3 .item_sec_3 {
+    width: 95%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 150px auto 0;
+}
+
+.select_3_img {
+    background-image: url("https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-wrapbg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.select_3_img img{
+    width: 100%;
+    height: 100%;
+    image-orientation: from-image;
+}
+
+
+.select_3_text {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    background: #15005c;
+    width: 50%;
+    border: 1px solid black;
+    color: white;
+    padding: 0 0 0 50px;
+}
+
+.select_3_text h2 {
+    font-size: 40px;
+}
+
+.select_3_text p {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.select_3_text  .btn {
+    margin-top: 30px;
+}
+
+
+/* Section_4 */
+
+.select_4 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.select_4 .select_4_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    color: #15005c;
+    text-align: center;
+}
+
+
+
+.select_4 h2 span {
+    padding: 0 10px;
+    text-align: center;
+    background: #ed5f43;
+    height: 50px;
+    color: white;
+}
+
+
+
+.select_4_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.item_sec_4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+    margin: auto;
+}
+
+.item_sec_4 img {
+    margin-bottom: 30px;
+}
+
+.item_sec_4 h2 {
+    font-size: 24px;
+
+}
+
+.item_sec_4 p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+/* Select 5_1 */
+
+.select_5_1 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_5_1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 0 10px;
+    border-radius: 15px;
+    background: #1c135e;
+    color: white;
+}
+
+.select_5_1 div h2 {
+    height: 50px;
+}
+
+
+.select_5_1 div p {
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+
+.select_5_1 div h3 {
+    text-align: center;
+    height: 50px;
+}
+
+.select_5_1 div h3 i {
+    color: #ed5f43;
+    font-size: 1rem;
+    transform: rotate(270deg);
+    margin-right: 10px;
+}
+
+.select_5_1 div h3 i.fa-envelope {
+    color: #ed5f43;
+    font-size: 1rem;
+    transform: rotate(360deg);
+}
+
+/* Select 5_2 */
+
+.select_5_1 div h2 {
+    height: 50px;
+}
+
+.select_5_1 div p {
+    text-align: center;
+    width: 170px;
+    height: 150px;
+}
+
+.select_5_1 div span {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+.select_5_1 div span.week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ed5f43;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* 3 */
+
+.select_5_1 div h2 {
+    height: 50px;
+}
+
+
+.select_5_1 div ul {
+    height: 300px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.select_5_1 div ul li {
+    margin: 20px 0;
+}
+
+.select_5_1 div li:before{
+    content: '\f265';
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #ed5f43;
+}
+
+/* select_6 */
+
+.select_6{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.select_6 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: #15005c;
+}
+
+.select_6 h2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    background: #ed5f43;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.select_6 form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.select_6 form input:nth-child(1){
+    width: 700px;
+    height: 40px;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 1rem;
+    background: antiquewhite;
+    margin-top: 30px;
+}
+
+.select_6 form input:nth-child(2){
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(128, 128, 128, 0.49);
+}
+
+.footer_sel1 {
+    background-image: url("https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-footerbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

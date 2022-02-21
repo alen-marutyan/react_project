@@ -1,0 +1,102 @@
+{
+  "Main_1_item": [
+    {
+      "id": 1,
+      "title": {
+        "title_1": "Why  become a",
+        "title_2": "web developer?"
+      },
+      "body": "Lorem ipsum dolor sit amet enim. Etiam \n                    ullamcorper. Suspendisse a pellentesque \n                    dui, non felis. Maecenas malesuada eli\n                    lectus felis, malesuada ultricies."
+    }
+  ],
+
+  "Main_2_item": [
+    {
+      "id": 1,
+      "title": {
+        "title_1": "Front-end",
+        "title_2": "web development"
+      },
+      "body": "Curabitur sed iaculis dolor, non congue \n ligula. Maecenas imperdiet ante eget \n hendrerit posuere. Nunc urna libero, \n congue porta nibh a, semper feugiat sem.",
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-pic1.png"
+    },
+    {
+      "id": 2,
+      "title": {
+        "title_1": "SQL Database for",
+        "title_2": "beginners"
+      },
+      "body": "Curabitur sed iaculis dolor, non congue  ligula. Maecenas imperdiet ante eget \n hendrerit posuere. Nunc urna libero, \n congue porta nibh a, semper feugiat sem.",
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-pic2.png"
+    }
+  ],
+
+
+  "Main_3_item":[
+    {
+      "id": 1,
+      "title": {
+        "title_1": "Special training",
+        "title_2": "for a school"
+      },
+      "body": "Curabitur sed iaculis dolor, non congue ligula. Maecenas imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat sem."
+    }
+  ],
+
+  "Main_4_item": [
+    {
+      "id": 1,
+      "title": {
+        "title_1": "Curabitur sed iaculis",
+        "title_2": "dolor"
+      },
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-icon1.png"
+    },
+    {
+      "id": 2,
+      "title": {
+        "title_1": "Ut ultricies imperdiet",
+        "title_2": "sodales"
+      },
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-icon2.png"
+    },
+    {
+      "id": 3,
+      "title": {
+        "title_1": "Aliquam fringilla",
+        "title_2": "aliquam amet"
+      },
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-icon3.png"
+    },
+    {
+      "id": 4,
+      "title": {
+        "title_1": "Nulla mauris",
+        "title_2": "accumsan"
+      },
+      "image": "https://themes.muffingroup.com/be/training2/wp-content/uploads/2020/02/training2-training-icon4.png"
+    }
+  ],
+  "Main_4_body": "Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan",
+
+  "Main_5_item": [
+    {
+      "contact_box": {
+        "title": "Contact box\n",
+        "body": "Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, Australia",
+        "help_desk": "Help Desk 24h/7\n\n",
+        "number": "+61 (0) 383 766 284",
+        "letter": " noreply@envato.com\n\n"
+      },
+      "opening_hours": {
+        "title": "Opening hours\n",
+        "body": "Lorem ipsum dolor sit amet enimullamcorper pellen tesque:",
+        "week_1": "Monday - Friday\n",
+        "time_1": "06:00 AM - 10:00 PM\n\n",
+        "week_2": "Saturday - Sunday\n",
+        "time_2": "08:00 AM - 08:00 PM\n\n"
+    },
+      "info_box": ["Mauris rhoncus", "Vestibulum euismod", "Cras massa nibh", "Vestibulum vehicula","Donec et maximus", "Praesent ut quam"]
+    }
+  ]
+}
